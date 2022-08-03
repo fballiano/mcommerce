@@ -42,5 +42,11 @@
         "fballiano/magento1-image-cleaner": "Identify and remove orphan images",
         "fballiano/openmage-lesti-fpc": "PHP bases Full Page Cache",
         "firegento/logger": "Advanced logging capabilities"
+    },
+    "repositories": {
+        "firegento": {
+            "type": "composer",
+            "url": "https://packages.firegento.com"
+        }
     }
 }
