@@ -21,7 +21,8 @@
                 "Removed Mage_Backup module": "https://github.com/OpenMage/magento-lts/pull/2259.diff",
                 "Move Cm_RedisSession and Cm_Cache_Backend_Redis to composer": "https://github.com/OpenMage/magento-lts/pull/2138.diff",
                 "Do not startEnvironmentEmulation for current store": "https://github.com/OpenMage/magento-lts/pull/1578.diff",
-                "Improve performance of product category rewrites (disabled product & categories and product_use_categories)": "https://github.com/OpenMage/magento-lts/pull/1405.diff"
+                "Improve performance of product category rewrites (disabled product & categories and product_use_categories)": "https://github.com/OpenMage/magento-lts/pull/1405.diff",
+                "Add weight for API salesOrderShipmentAddTrack": "https://github.com/OpenMage/magento-lts/pull/1377.patch"
             }
         }
     },
