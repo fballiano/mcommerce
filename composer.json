@@ -22,7 +22,8 @@
                 "Move Cm_RedisSession and Cm_Cache_Backend_Redis to composer": "https://github.com/OpenMage/magento-lts/pull/2138.diff",
                 "Do not startEnvironmentEmulation for current store": "https://github.com/OpenMage/magento-lts/pull/1578.diff",
                 "Improve performance of product category rewrites (disabled product & categories and product_use_categories)": "https://github.com/OpenMage/magento-lts/pull/1405.diff",
-                "Add weight for API salesOrderShipmentAddTrack": "https://github.com/OpenMage/magento-lts/pull/1377.diff"
+                "Add weight for API salesOrderShipmentAddTrack": "https://github.com/OpenMage/magento-lts/pull/1377.diff",
+                "Make Curl Client HTTP/2 compatible": "https://github.com/OpenMage/magento-lts/pull/1137.diff"
             }
         }
     },
