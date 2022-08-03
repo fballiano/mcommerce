@@ -1,0 +1,46 @@
+{
+    "name": "fballiano/mcommerce",
+    "type": "magento-core",
+    "require": {
+        "aydin-hassan/magento-core-composer-installer": "2.1.0",
+        "magento-hackathon/magento-composer-installer": "4.0.2",
+        "cweagans/composer-patches": "1.7.2",
+        "openmage/magento-lts": "20.0.15"
+    },
+    "extra": {
+        "magento-core-package-type": "magento-source",
+        "magento-root-dir": "openmage",
+        "patches": {
+            "openmage/magento-lts": {
+                "Enable website config cache": "https://github.com/OpenMage/magento-lts/pull/2355.patch",
+                "Block access to all dot files": "https://github.com/OpenMage/magento-lts/pull/2349.patch",
+                "JSON-RPC API support": "https://github.com/OpenMage/magento-lts/pull/2273.patch",
+                "Removed Mage_Backup module": "https://github.com/OpenMage/magento-lts/pull/2259.patch",
+                "Move Cm_RedisSession and Cm_Cache_Backend_Redis to composer": "https://github.com/OpenMage/magento-lts/pull/2138.patch"
+            }
+        }
+    },
+    "config": {
+        "preferred-install": "dist",
+        "optimize-autoloader": true,
+        "classmap-authoritative": true,
+        "allow-plugins": {
+            "magento-hackathon/magento-composer-installer": true,
+            "aydin-hassan/magento-core-composer-installer": true,
+            "cweagans/composer-patches": true
+        }
+    },
+    "suggest": {
+        "aoepeople/aoe_blackholesession": "Skip creating a real session for bots",
+        "aoepeople/aoe_jscsststamp": "Automatic Versioning of JS and CSS files",
+        "aoepeople/aoe_scheduler": "Advanced cron scheduling management",
+        "aschroder/smtp_pro": "Support for sending emails via SMTP",
+        "avstudnitz/fast-simple-import": "Imports products and customers from arrays",
+        "colinmollenhour/cache-backend-redis": "Support for storing OpenMage's cache in Redis",
+        "colinmollenhour/magento-redis-session": "Support for storing OpenMage' sessions in Redis",
+        "colinmollenhour/Perfect_Watermarks": "Replacement for OpenMage's GD2 image adapter with imagemagick",
+        "fballiano/magento1-image-cleaner": "Identify and remove orphan images",
+        "fballiano/openmage-lesti-fpc": "PHP bases Full Page Cache",
+        "firegento/logger": "Advanced logging capabilities"
+    }
+}
