@@ -2,6 +2,7 @@
     "name": "fballiano/mcommerce",
     "type": "magento-core",
     "require": {
+        "php": ">=8.0, <=8.1",
         "aydin-hassan/magento-core-composer-installer": "2.1.0",
         "magento-hackathon/magento-composer-installer": "4.0.2",
         "cweagans/composer-patches": "1.7.2",
@@ -11,7 +12,7 @@
         "composer-exit-on-patch-failure": true,
         "enable-patching": true,
         "magento-core-package-type": "magento-source",
-        "magento-root-dir": "openmage",
+        "magento-root-dir": "mcommerce",
         "patches": {
             "openmage/magento-lts": {
                 "Enable website config cache": "https://github.com/OpenMage/magento-lts/pull/2355.diff",
