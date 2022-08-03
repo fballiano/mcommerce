@@ -8,6 +8,7 @@
         "openmage/magento-lts": "20.0.15"
     },
     "extra": {
+        "composer-exit-on-patch-failure": true,
         "magento-core-package-type": "magento-source",
         "magento-root-dir": "openmage",
         "patches": {
