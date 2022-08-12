@@ -34,12 +34,6 @@
             "cweagans/composer-patches": true
         }
     },
-    "repositories": {
-        "firegento": {
-            "type": "composer",
-            "url": "https://packages.firegento.com"
-        }
-    },
     "suggest": {
         "aoepeople/aoe_blackholesession": "Skip creating a real session for bots",
         "aoepeople/aoe_jscsststamp": "Automatic Versioning of JS and CSS files",
