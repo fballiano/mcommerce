@@ -15,10 +15,10 @@
         "magento-root-dir": "mcommerce",
         "patches": {
             "openmage/magento-lts": {
+                "Move phpseclib, mcrypt_compat, net_idna2, Cm_RedisSession and Cm_Cache_Backend_Redis to composer": "https://github.com/OpenMage/magento-lts/pull/2411.diff",
                 "Enable website config cache": "https://github.com/OpenMage/magento-lts/pull/2355.diff",
                 "JSON-RPC API support": "https://github.com/OpenMage/magento-lts/pull/2273.diff",
                 "Do not startEnvironmentEmulation for current store": "https://github.com/OpenMage/magento-lts/pull/1578.diff",
-                "Move phpseclib, mcrypt_compat, net_idna2, Cm_RedisSession and Cm_Cache_Backend_Redis to composer": "https://github.com/OpenMage/magento-lts/pull/2411.diff",
                 "Improvements in cron scripts": "https://github.com/OpenMage/magento-lts/pull/2380.diff"
             }
         }
