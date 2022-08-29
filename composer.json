@@ -15,7 +15,6 @@
         "magento-root-dir": "mcommerce",
         "patches": {
             "openmage/magento-lts": {
-                "Merge v19 -> v20": "https://github.com/OpenMage/magento-lts/pull/2416.diff",
                 "Enable website config cache": "https://github.com/OpenMage/magento-lts/pull/2355.diff",
                 "JSON-RPC API support": "https://github.com/OpenMage/magento-lts/pull/2273.diff",
                 "Do not startEnvironmentEmulation for current store": "https://github.com/OpenMage/magento-lts/pull/1578.diff",
