@@ -15,13 +15,7 @@
         "magento-root-dir": "mcommerce",
         "patches": {
             "openmage/magento-lts": {
-                "Enable website config cache": "https://github.com/OpenMage/magento-lts/pull/2355.diff",
-                "JSON-RPC API support": "https://github.com/OpenMage/magento-lts/pull/2273.diff",
-                "Do not startEnvironmentEmulation for current store": "https://github.com/OpenMage/magento-lts/pull/1578.diff",
-                "Improvements in cron scripts": "https://github.com/OpenMage/magento-lts/pull/2380.diff",
-                "Avoid getting lock on frontend for flat catalog indexes": "https://github.com/OpenMage/magento-lts/pull/2492.diff",
-                "Deprecate PayPal logo block": "https://github.com/OpenMage/magento-lts/pull/2498.diff",
-                "Removed more Internet Explorer related libraries": "https://github.com/OpenMage/magento-lts/pull/2504.diff"
+                "JSON-RPC API support": "https://github.com/OpenMage/magento-lts/pull/2273.diff"
             }
         }
     },
