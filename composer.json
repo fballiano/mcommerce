@@ -17,7 +17,7 @@
             "openmage/magento-lts": {
                 "JSON-RPC API support": "https://github.com/OpenMage/magento-lts/pull/2273.diff",
                 "Added check for coupon expiration date": "https://github.com/OpenMage/magento-lts/pull/3029.diff",
-                "Fixed problem with associated_products not visible in backend": "https://github.com/OpenMage/magento-lts/pull/3003.diff",
+                "Fixed problem with associated_products not visible in backend": "https://github.com/OpenMage/magento-lts/pull/3093.diff",
                 "RWD theme: Focus on the search field when clicking on the search button": "https://github.com/OpenMage/magento-lts/pull/3095.diff"
             }
         }
